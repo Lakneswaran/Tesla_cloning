@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.container__section{
+    scroll-snap-align: start;
+    background-size: cover;
+    background-position: center;
+}
+
+.container__section#one {
+    background-image: url(/img/one.jpeg);
+}
+
+.container__section#two {
+    background-image: url(/img/two.jpeg);
+}
+
+.container__section#three {
+    background-image: url(/img/ModelS.jpeg);
+}
+
+.container__section#four {
+    background-image: url(/img/ModelX.jpeg);
+}
+
+.container__section#five {
+    background-image: url(/img/SolarPanel.jpeg);
+}
+
+.container__section#six {
+    background-image: url(/img/SR-Design-D.jpeg);
+}
+
+.container__section#seven {
+    background-image: url(/img/Desktop-Accessories.jpeg);
+}

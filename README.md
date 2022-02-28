@@ -1,6 +1,10 @@
 # Tesla_cloning
 Tesla website cloning and using BEM
 
+- BEM
+- Transition 
+- 
+
 
 ## BEM - Block element modify
 
@@ -12,3 +16,4 @@ Tesla website cloning and using BEM
 ## CSS
 
 - rgba(204, 204, 204, 0.3) RGB a -> opacity
+- 
