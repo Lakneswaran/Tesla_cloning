@@ -1,7 +1,33 @@
 :root {
-    --text-color: #50555e
+    --text-color: #50555e;
+    
 }
 
 * {
     font-family: 'Raleway', sans-serif;
+}
+
+.container__section{
+    height: 100vh;
+}
+.container__section#one {
+    background-color: blueviolet;
+}
+.container__section#two {
+    background-color: rgb(214, 226, 43);
+}
+.container__section#three {
+    background-color: rgb(120, 48, 214);
+}
+.container__section#four {
+    background-color: rgb(33, 199, 41);
+}
+.container__section#five {
+    background-color: rgb(175, 115, 25);
+}
+.container__section#six {
+    background-color: rgb(87, 30, 82);
+}
+.container__section#seven {
+    background-color: rgb(214, 226, 43);
 }
