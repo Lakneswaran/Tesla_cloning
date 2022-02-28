@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electric Cars, Solar & Clean energy | Tesla</title>
     <link rel="stylesheet" href="css/tesla-clone.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="shortcut icon" href="img/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +16,33 @@
 <body>
     
     <header class="header">
+        <div class="header__announcement">
+            <a href="#">Read Tesla's 2022 Impact Report</a>
+        </div>
         <div class="header__nav-section">
             <div>
-                <img class="header__logo" src="img/tesla_logo.png"/>
+                <img class="header__logo" src="img/tesla_logo.png" width="120"/>
             </div>
             <div>
-
+                <nav class="header__nav header__nav--main">
+                    <a href="#">Model S</a>
+                    <a href="#">Model 3</a>
+                    <a href="#">Model X</a>
+                    <a href="#">Model Y</a>
+                    <a href="#">Solar Roof</a>
+                    <a href="#">Solar Panels</a>
+                    <div class="header__min-slider"></div>
+                </nav>
+            </div>
+            <div>
+                <nav class="header__nav header__nav--sub">
+                    <a href="#">Shop</a>
+                    <a href="#">Account</a>
+                    <a href="#" class="open-menu">Menu</a>
+                </nav>
+                <nav class="header__nav header__nav--mobile">
+                    <a href="#" class="open-menu">Menu</a>
+                </nav>
             </div>
         </div>
     </header>

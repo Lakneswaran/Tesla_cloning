@@ -1,0 +1,48 @@
+<div class="header">
+    <nav>
+        <a href="#">link</a>
+    </nav>
+</div>
+
+// specificity is increasing drastically
+
+<style>
+    .header{
+
+    }
+    .header nav {
+
+    }
+    .header nav a {
+            /* // this have specificity higher than nav a */
+    }
+    nav a {
+        color: red !important;
+        /* // we need to use extra class to overwrite the priority. */
+    }
+</style>
+
+// BEM
+
+<div class="header">                  <!--  block -->
+    <nav class="header__nav header__nav--main">        <!--  element --> <!-- modified element -->
+        <a class = "header__link" href="#"><span class="header__span"></span>link</a> 
+    </nav>
+    <nav class="header__nav header__nav--submenu">
+        <a class = "header__link" href="#"><span class="header__span"></span>link</a> 
+    </nav>
+</div>
+
+// specificity is increasing drastically
+
+<style>
+    .header__nav--main{
+        display: none;
+    }
+    .header__nav--submenu{
+
+    }
+    .header__span{
+        
+    }
+</style>
