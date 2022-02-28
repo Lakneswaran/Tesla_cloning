@@ -12,3 +12,54 @@
 .header__nav--mobile{
     display: none;
 }
+
+.header__nav{
+    position: relative;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: .5rem;
+    font-weight: bold;
+    
+}
+
+.header__min-slider{
+    height: 1rem;
+    width: 4.7rem;
+    padding: 0.5rem;
+    top: -0.35rem;
+    left: -0.45rem;
+    background-color: rgba(204, 204, 204, 0.3);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+
+
+.header__nav a:hover ~ .header__min-slider  {
+    display: block;
+}
+.header__nav a:nth-child(2):hover ~ .header__min-slider  {
+    left: 4.6rem;
+}
+.header__nav a:nth-child(3):hover ~ .header__min-slider  {
+    left: 9.5rem;
+}
+.header__nav a:nth-child(4):hover ~ .header__min-slider  {
+    left: 14.4rem;
+}
+.header__nav a:nth-child(5):hover ~ .header__min-slider  {
+    left: 19.5rem;
+    width: 5.6rem;
+}
+.header__nav a:nth-child(6):hover ~ .header__min-slider  {
+    left: 25.8rem;
+    width: 6rem;
+}
+

@@ -17,7 +17,7 @@ h2{
     height: 100vh;
 }
 .container__section#one {
-    background-color: blueviolet;
+    background-color: rgb(128, 125, 131);
 }
 .container__section#two {
     background-color: rgb(214, 226, 43);
