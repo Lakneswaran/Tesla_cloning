@@ -37,3 +37,14 @@
 .container__section#seven {
     background-image: url(/img/Desktop-Accessories.jpeg);
 }
+
+.container_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
