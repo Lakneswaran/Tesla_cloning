@@ -2,6 +2,12 @@
     --text-color: #50555e;
     
 }
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
 
 * {
     font-family: 'Raleway', sans-serif;
