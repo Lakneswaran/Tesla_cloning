@@ -16,9 +16,9 @@ overlayClose.addEventListener('click', (e) => {
 ScrollOut({
     scrollingElement: ".container",
     onShown: function(el) {
-      el.animate([{ opacity: .5 }, { opacity: 1 }], 1500);
+      el.animate([{ opacity: 0 }, { opacity: 1 }], 1500);
     },
     onHidden: function(el) {
-      el.animate([{ opacity: 1 }, { opacity: .5 }], 1500);
+      el.animate([{ opacity: 1 }, { opacity: 0 }], 1500);
     }
   });
