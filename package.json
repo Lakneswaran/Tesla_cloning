@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "scroll-out": "^2.2.12"
+  },
+  "name": "tesla_cloning",
+  "description": "Tesla website cloning and using BEM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakneswaran/Tesla_cloning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lakneswaran/Tesla_cloning/issues"
+  },
+  "homepage": "https://github.com/Lakneswaran/Tesla_cloning#readme"
+}

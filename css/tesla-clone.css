@@ -38,8 +38,24 @@ h2{
     background-color: rgb(214, 226, 43);
 }
 
+
 @media screen and (max-width: 1100px) {
-    body {
+    .header__nav {
         display: none;
+    }
+    .header__nav--mobile{
+        display: block;
+    }
+    .container__down-arrow{
+        display: none;
+    }
+    .ml {
+       margin-left: 0;
+    }
+    .btn {
+        width: 100%;
+    }
+    .btn-dark {
+        margin-bottom: 1.5rem;
     }
 }
