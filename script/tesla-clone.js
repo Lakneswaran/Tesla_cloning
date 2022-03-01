@@ -3,7 +3,8 @@ const overlayClose = document.querySelector('.overlay__close');
 
 const openMenu = document.querySelectorAll('.open-menu');
 openMenu.forEach(menuBtn => {
-    overlay.classList.add('click', (e) => {
+    console.log(menuBtn);
+    menuBtn.add('click', (e) => {
         overlay.classList.add('show');
     });
 });
