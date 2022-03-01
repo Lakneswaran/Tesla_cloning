@@ -1,0 +1,33 @@
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    display: none;
+    justify-content: end;
+}
+.overlay.show {
+    display: flex;
+}
+
+.overlay__menu{
+    background-color: #fff;
+    padding: 0 1rem;
+}
+.overlay__close{
+    padding: 2rem 0;
+    text-align: right;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.overlay__list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.overlay__list li {
+    margin-bottom: 0.5rem;
+}
