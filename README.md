@@ -2,8 +2,8 @@
 Tesla website cloning and using BEM
 
 - BEM
-- animation 
-- media query - when screens gets smaller, how it should work
+- Animation 
+- Media query - when screens gets smaller, how it should work
 - JS
 
 
