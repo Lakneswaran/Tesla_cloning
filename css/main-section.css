@@ -48,3 +48,28 @@
     text-align: center;
     box-sizing: border-box;
 }
+
+.container__content-header h2{
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: #fff;
+    border: unset; 
+    min-width: 15rem; 
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .6rem 1rem;
+    border-radius: 2rem;
+}
+
+.btn-dark{
+    color: #fff;
+    background-color: rgba(23, 26, 32, 0.8);
+}
+
+.btn-light{
+    opacity: 0.8;
+}

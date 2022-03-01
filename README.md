@@ -16,4 +16,4 @@ Tesla website cloning and using BEM
 ## CSS
 
 - rgba(204, 204, 204, 0.3) RGB a -> opacity
-- 
+- 1 rem => 14 px
