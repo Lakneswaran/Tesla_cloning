@@ -2,8 +2,9 @@
 Tesla website cloning and using BEM
 
 - BEM
-- Transition 
-- 
+- animation 
+- media query - when screens gets smaller, how it should work
+- JS
 
 
 ## BEM - Block element modify
